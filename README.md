@@ -91,9 +91,7 @@ titled `"scripts"`. Let's replace the default `"test"` script with
 an shell command:
 
 ```json
-"scripts": {
-  "test": "echo 'Hello World!'"
-}
+"scripts": { "test": "echo 'Hello World!'"}
 ```
 
 We can now call this script and have it run by using the command `npm test` in the terminal (if that doesn't work, try `npm run test`). You
